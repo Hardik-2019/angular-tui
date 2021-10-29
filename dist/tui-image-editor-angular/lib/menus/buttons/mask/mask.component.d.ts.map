@@ -1,0 +1,1 @@
+{"version":3,"file":"mask.component.d.ts","sourceRoot":"","sources":["../../../../../../projects/tui-image-editor-angular/src/lib/menus/buttons/mask/mask.component.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,YAAY,EAAyB,MAAM,eAAe,CAAC;;AAE/E,qBAKa,aAAa;IACf,WAAW,EAAE,OAAO,CAAC;IACrB,QAAQ,EAAE,OAAO,CAAS;IACzB,OAAO,EAAE,YAAY,CAAC,MAAM,CAAC,CAA8B;;iCAH1D,aAAa;2CAAb,aAAa;CAMzB"}

@@ -1,0 +1,31 @@
+{
+  "name": "tui-image-editor-angular",
+  "version": "0.0.15",
+  "peerDependencies": {
+    "@angular/common": "11.2.0",
+    "@angular/core": "11.2.0",
+    "@angular/forms": "11.2.0"
+  },
+  "dependencies": {
+    "tslib": "2.1.0",
+    "@ng-bootstrap/ng-bootstrap": "9.0.2",
+    "ngx-color-picker": "11.0.0",
+    "fabric": "4.2.0",
+    "tui-image-editor": "3.14.3",
+    "@ngx-translate/core": "13.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aldrashan/angular-tui.git"
+  },
+  "main": "bundles/tui-image-editor-angular.umd.js",
+  "module": "fesm2015/tui-image-editor-angular.js",
+  "es2015": "fesm2015/tui-image-editor-angular.js",
+  "esm2015": "esm2015/tui-image-editor-angular.js",
+  "fesm2015": "fesm2015/tui-image-editor-angular.js",
+  "typings": "tui-image-editor-angular.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}

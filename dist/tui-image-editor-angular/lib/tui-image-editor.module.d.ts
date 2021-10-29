@@ -1,0 +1,45 @@
+import { TranslateModule } from '@ngx-translate/core';
+import * as i0 from "@angular/core";
+import * as i1 from "./tui-image-editor.component";
+import * as i2 from "./menus/buttons/load/load.component";
+import * as i3 from "./menus/buttons/history/history.component";
+import * as i4 from "./svg-definitions/svg-definitions.component";
+import * as i5 from "./menus/buttons/download/download.component";
+import * as i6 from "./menus/buttons/zoom-in/zoom-in.component";
+import * as i7 from "./menus/buttons/zoom-out/zoom-out.component";
+import * as i8 from "./menus/buttons/drag/drag.component";
+import * as i9 from "./menus/buttons/undo/undo.component";
+import * as i10 from "./menus/buttons/redo/redo.component";
+import * as i11 from "./menus/buttons/reset/reset.component";
+import * as i12 from "./menus/buttons/delete/delete.component";
+import * as i13 from "./menus/buttons/delete-all/delete-all.component";
+import * as i14 from "./menus/buttons/crop/crop.component";
+import * as i15 from "./submenus/crop/crop.component";
+import * as i16 from "./menus/buttons/flip/flip.component";
+import * as i17 from "./submenus/flip/flip.component";
+import * as i18 from "./menus/buttons/rotate/rotate.component";
+import * as i19 from "./submenus/rotate/rotate.component";
+import * as i20 from "./menus/buttons/draw/draw.component";
+import * as i21 from "./submenus/draw/draw.component";
+import * as i22 from "./menus/buttons/shape/shape.component";
+import * as i23 from "./submenus/shape/shape.component";
+import * as i24 from "./menus/buttons/icon/icon.component";
+import * as i25 from "./submenus/icon/icon.component";
+import * as i26 from "./menus/buttons/text/text.component";
+import * as i27 from "./submenus/text/text.component";
+import * as i28 from "./menus/buttons/mask/mask.component";
+import * as i29 from "./submenus/mask/mask.component";
+import * as i30 from "./menus/buttons/filter/filter.component";
+import * as i31 from "./submenus/filter/filter.component";
+import * as i32 from "@angular/common";
+import * as i33 from "@angular/forms";
+import * as i34 from "@ngx-translate/core";
+import * as i35 from "ngx-color-picker";
+import * as i36 from "@ng-bootstrap/ng-bootstrap";
+export declare const translateModule: import("@angular/core").ModuleWithProviders<TranslateModule>;
+export declare class TuiImageEditorModule {
+    static forRoot(): i0.ModuleWithProviders<TuiImageEditorModule>;
+    static ɵmod: i0.ɵɵNgModuleDefWithMeta<TuiImageEditorModule, [typeof i1.TuiImageEditorComponent, typeof i2.LoadComponent, typeof i3.HistoryComponent, typeof i4.SvgDefinitionsComponent, typeof i5.DownloadComponent, typeof i6.ZoomInComponent, typeof i7.ZoomOutComponent, typeof i8.DragComponent, typeof i9.UndoComponent, typeof i10.RedoComponent, typeof i11.ResetComponent, typeof i12.DeleteComponent, typeof i13.DeleteAllComponent, typeof i14.CropComponent, typeof i15.CropComponent, typeof i16.FlipComponent, typeof i17.FlipComponent, typeof i18.RotateComponent, typeof i19.RotateComponent, typeof i20.DrawComponent, typeof i21.DrawComponent, typeof i22.ShapeComponent, typeof i23.ShapeComponent, typeof i24.IconComponent, typeof i25.IconComponent, typeof i26.TextComponent, typeof i27.TextComponent, typeof i28.MaskComponent, typeof i29.MaskComponent, typeof i30.FilterComponent, typeof i31.FilterComponent], [typeof i32.CommonModule, typeof i33.FormsModule, typeof i34.TranslateModule, typeof i35.ColorPickerModule, typeof i36.NgbPopoverModule], [typeof i1.TuiImageEditorComponent, typeof i4.SvgDefinitionsComponent]>;
+    static ɵinj: i0.ɵɵInjectorDef<TuiImageEditorModule>;
+}
+//# sourceMappingURL=tui-image-editor.module.d.ts.map
